@@ -1,0 +1,27 @@
+.col-lg-12{
+    width:350px;
+    height: 600px;
+    border: 2px black solid;
+    background-color: rgb(219, 216, 210);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 35%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.form-control{
+    margin-top: 30px;
+    height: 70px;
+    width: 315px;
+    margin-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body{
+    background-color: rgb(73, 70, 70);
+}

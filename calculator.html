@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6af385405b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+         <h3 class="text-center mt-3">calculator</h3>
+            <form action="text">
+                <input id="result" type="text" class="form-control">
+
+
+            </form>
+            <div class="mt-5">
+                <button type="button" class="btn btn-outline-dark ms-3 me-5" onclick="displaydata(1)">1</button>
+                <button type="button" class="btn btn-outline-dark me-5" onclick="displaydata(2)">2</button>
+                <button type="button" class="btn btn-outline-dark me-4" onclick="displaydata(3)">3</button>
+                <button type="button" class="btn btn-outline-dark ms-4" onclick="displaydata('/')">/</button>
+              </div>
+              <div class="mt-5">
+                <button type="button" class="btn btn-outline-dark ms-3 me-5" onclick="displaydata(4)">4</button>
+                <button type="button" class="btn btn-outline-dark me-5" onclick="displaydata(5)">5</button>
+                <button type="button" class="btn btn-outline-dark me-4" onclick="displaydata(6)">6</button>
+                <button type="button" class="btn btn-outline-dark ms-4" onclick="displaydata('*')">*</button>
+              </div>
+              <div class="mt-5">
+                <button type="button" class="btn btn-outline-dark ms-3 me-5" onclick="displaydata(7)">7</button>
+                <button type="button" class="btn btn-outline-dark me-5" onclick="displaydata(8)">8</button>
+                <button type="button" class="btn btn-outline-dark me-4" onclick="displaydata(9)">9</button>
+                <button type="button" class="btn btn-outline-dark ms-4" onclick="displaydata('-')">-</button>
+              </div>
+              <div class="mt-5">
+                <button type="button" class="btn btn-outline-dark ms-3 me-5" onclick="displaydata(0)">0</button>
+                <button type="button" class="btn btn-outline-dark me-2" onclick="allclear()">AC</button>
+                <button type="button" class="btn btn-outline-dark ms-4" onclick="displaydata('+')">+</button>
+                <button type="button" class="btn btn-outline-dark ms-5" onclick="backspace()">⌫</button>
+              </div>
+              <div class="mt-5">
+                <button  onclick="evals()" type="button" class="btn btn-outline-dark" style="padding-left:30px ; padding-right:30px; margin-left: 125px;">=</button>
+              </div>
+              
+
+
+        </div>
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
